@@ -1,5 +1,6 @@
 import styles from "./styles.module.scss"
-
+import photo01 from "../../../../src/assets/lucas_ademy_banner.png"
+import photo02 from "../../../../src/assets/lucas_banner.png"
 export const BannerSection = () => {
   return (
     <>
@@ -8,12 +9,12 @@ export const BannerSection = () => {
           <div className={styles.containerImg}>
             <img
               className={`${styles.profilePhoto} ${styles.primary}`}
-              src="../../../../src/assets/lucas_ademy_banner.png"
+              src={photo01}
               alt="Foto do Candidato Lucas junto ao vice Ademy"
             />
             <img
               className={`${styles.profilePhoto} ${styles.secondary}`}
-              src="../../../../src/assets/lucas_banner.png"
+              src={photo02}
               alt="Foto do Candidato Lucas Novaes"
             />
             <span
